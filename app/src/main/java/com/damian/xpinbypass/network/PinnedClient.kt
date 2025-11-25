@@ -6,12 +6,10 @@ import okhttp3.Request
 
 object PinnedClient {
 
-    // 연습용 도메인 – 우선 example.com 으로 가자
+    // 연습용 도메인
     private const val HOST = "example.com"
 
-    // ⚠ 여기 pin 값은 나중에 openssl로 진짜 뽑아서 넣으면 돼.
-    // 지금은 일부러 틀린 값 넣어두면, 항상 SSL 에러가 나서
-    // "우회 전/후" 비교하기 좋음.
+    // 여기 pin 값은 openssl로 진짜 뽑아서 넣으면 된다. (현재는 임시로 틀린 값)
     private val certificatePinner: CertificatePinner = CertificatePinner.Builder()
         .add(HOST, "sha256/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=")
         .build()
