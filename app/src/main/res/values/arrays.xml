@@ -1,0 +1,6 @@
+<resources>
+    <string-array name="xposedscope">
+        <!-- 이 모듈을 기본으로 적용할 앱 -->
+        <item>com.damian.xpinbypass</item>
+    </string-array>
+</resources>
