@@ -3,10 +3,6 @@
 **XPinBypass** 는 Android에서 **OkHttp의 SSL/TLS certificate pinning을 Xposed/LSPosed로 우회하는 데모 앱**
 
 **“핀닝 적용 → 실패 → Xposed 모듈로 우회”**
-
-> ⚠️ 이 프로젝트는 **오직 본인이 소유한 테스트 환경에서의 보안 연구/리버스 엔지니어링 학습**만을 목적으로 합니다.  
-> 제3자의 서비스, 상용 앱 등에 대한 무단 후킹·우회는 법적 문제를 일으킬 수 있습니다.
-
 ---
 
 ## Features
